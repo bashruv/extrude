@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>유해사이트 차단</title>
+    <style>
+
+        @font-face {
+            font-family: "Gugi-Regular";
+            src: url("./Gugi-Regular.ttf") format('truetype');
+        }
+
+      body{
+        max-width: 100vw;
+        max-height: 100vh;
+        background-color: #303030;
+        text-align: center;
+        color: white;
+      }
+      section {
+        margin-top: 15vh;
+      }
+      div > img {
+        width: 30vmin;
+      }
+      div > p {
+        margin-top: 5vh;
+        font-family: 'Gugi-Regular', sans-serif;
+        font-size: calc(8px + 2vmin);
+      }
+      footer > p {
+        margin-top: 25vh;
+        font-size: calc(1px + 1vmin);
+      }
+      @media (prefers-reduced-motion: no-preference) {
+        div > img {
+          animation: App-logo-spin infinite 20s linear;
+        }
+      }
+      @keyframes App-logo-spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div>
+        <img src="logo.png" alt="Edex">
+        <p>
+          유해사이트 접속 시도가 확인되어 차단되었습니다.
+        </p>
+      </div>
+      <footer>
+        <p>
+          서울영상고등학교<br>
+          3D 모델링실 관리자
+        </p>
+      </footer>
+    </section>
+  </body>
+</html>
